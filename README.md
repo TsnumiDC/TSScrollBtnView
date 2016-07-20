@@ -6,7 +6,8 @@ This is a top navigation tools，we can use the tools to Turn the page</br>
 #####2.how to use it  如何使用它
 ######init  初始化
 ```Objective-C
-+ (instancetype)scrollBtnViewWithnameArray:(NSArray *)nameArray;```
++ (instancetype)scrollBtnViewWithnameArray:(NSArray *)nameArray;
+```
 ######config your scrollView  配置滚动视图
 ```Objective-C
 NSArray * nameArray=@[@"001",@"002",@"003",@"004",@"005",@"006",@"007",@"008",@"009",@"010"];
@@ -29,7 +30,7 @@ self.scrollView.contentOffset=CGPointMake([UIScreen mainScreen].bounds.size.widt
 }
 ```
 #####3.show you the effect
- ![effect](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+ ![effect](https://github.com/TsnumiDC/TSScrollBtnView/blob/master/TSScrollBtnDemo/VideoGIF.gif)
 #####4.how to contact me
 Dylan</br>
 [blog:blog.dylancc.com](http://blog.dylancc.com)
