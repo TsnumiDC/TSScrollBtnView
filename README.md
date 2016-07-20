@@ -30,7 +30,7 @@ self.scrollView.contentOffset=CGPointMake([UIScreen mainScreen].bounds.size.widt
 }
 ```
 #####3.show you the effect
- ![effect](https://github.com/TsnumiDC/TSScrollBtnView/blob/master/TSScrollBtnDemo/VideoGIF.gif)
+ ![effect](https://github.com/TsnumiDC/TSScrollBtnView/blob/master/effect.gif)
 #####4.how to contact me
 Dylan</br>
 [blog:blog.dylancc.com](http://blog.dylancc.com)
