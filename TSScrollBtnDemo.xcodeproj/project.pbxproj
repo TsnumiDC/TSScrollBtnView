@@ -17,6 +17,7 @@
 		FCDEF9851D3F505A004F3244 /* showItemView@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDEF97F1D3F505A004F3244 /* showItemView@2x.png */; };
 		FCDEF9861D3F505A004F3244 /* TSBtnLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDEF9811D3F505A004F3244 /* TSBtnLabel.m */; };
 		FCDEF9871D3F505A004F3244 /* TSScrollBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDEF9831D3F505A004F3244 /* TSScrollBtnView.m */; };
+		FCDEF9891D3F6E29004F3244 /* VideoGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = FCDEF9881D3F6E29004F3244 /* VideoGIF.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		FCDEF9811D3F505A004F3244 /* TSBtnLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBtnLabel.m; sourceTree = "<group>"; };
 		FCDEF9821D3F505A004F3244 /* TSScrollBtnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSScrollBtnView.h; sourceTree = "<group>"; };
 		FCDEF9831D3F505A004F3244 /* TSScrollBtnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSScrollBtnView.m; sourceTree = "<group>"; };
+		FCDEF9881D3F6E29004F3244 /* VideoGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = VideoGIF.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		FCDEF9591D3F1A71004F3244 /* TSScrollBtnDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FCDEF9881D3F6E29004F3244 /* VideoGIF.gif */,
 				FCDEF97D1D3F505A004F3244 /* TSScrollBtnView */,
 				FCDEF95D1D3F1A71004F3244 /* AppDelegate.h */,
 				FCDEF95E1D3F1A71004F3244 /* AppDelegate.m */,
@@ -135,6 +138,7 @@
 				TargetAttributes = {
 					FCDEF9561D3F1A71004F3244 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 26J52EZXXR;
 					};
 				};
 			};
@@ -164,6 +168,7 @@
 				FCDEF96A1D3F1A71004F3244 /* LaunchScreen.storyboard in Resources */,
 				FCDEF9841D3F505A004F3244 /* closeItemView@2x.png in Resources */,
 				FCDEF9671D3F1A71004F3244 /* Assets.xcassets in Resources */,
+				FCDEF9891D3F6E29004F3244 /* VideoGIF.gif in Resources */,
 				FCDEF9651D3F1A71004F3244 /* Main.storyboard in Resources */,
 				FCDEF9851D3F505A004F3244 /* showItemView@2x.png in Resources */,
 			);
@@ -294,10 +299,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TSScrollBtnDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TS.TSScrollBtnDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -305,10 +313,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TSScrollBtnDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TS.TSScrollBtnDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
