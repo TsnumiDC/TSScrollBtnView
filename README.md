@@ -29,6 +29,8 @@ self.scrollView.contentOffset=CGPointMake([UIScreen mainScreen].bounds.size.widt
 [self.view addSubview:menuView];
 }
 ```
+
+`warining:` scrollview.pagingEnabled = YES;
 #####3.show you the effect
  ![effect](https://github.com/TsnumiDC/TSScrollBtnView/blob/master/effect.gif)
 #####4.how to contact me
